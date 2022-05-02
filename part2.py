@@ -11,5 +11,7 @@ number in the formatted sentence that's already there.
 
 #code starts here
 number = input("Enter a number: ")
-print("Ten times your number is", 10 * number)
-print("Ninety-nine more than your number is", 99 + number)
+tentimes = number * 10
+Ninetyninemore = number + 99
+print("Ten times your number is", tentimes)
+print ("Ninety-nine more than your number is", ninetyninemore)
